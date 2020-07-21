@@ -1,0 +1,22 @@
+.compass {
+    width: 100%;
+    position: absolute;
+    margin: 0 0 0 0;
+}
+
+.compass-container {
+    width: 100vw;
+    height: 100vw;
+}
+
+.distance {
+    font-size: $xxlarge;
+}
+
+.distance-subtitle {
+    font-size: $xlarge;
+}
+
+.distance-container {
+    margin: 0 2rem 0 2rem;
+}

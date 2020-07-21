@@ -1,0 +1,48 @@
+.desktop {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding: 5% 5%;
+    left: 0;
+    top: 0;
+    background: $black;
+    height: 100vh;
+    width: 100vw;
+
+    .content {
+        background: none;
+    }
+}
+
+.desktop::-webkit-scrollbar {
+    display: none;
+}
+
+.desktopLogo {
+    width: 100%;
+}
+
+.desktop-links {
+    display: flex;
+    margin-top: 3rem;
+    a {
+        color: $white;
+        font-size: $medium;
+        margin-right: 5rem;
+    }
+}
+
+.desktop-title {
+    font-size: $xlarge;
+    margin-bottom: 5rem;
+}
+
+.desktop-text {
+    font-size: $small;
+    margin-bottom: 3rem;
+}
+
+.desktop-text-bottom {
+    font-size: $small;
+    margin: 3rem 0 2rem 0;
+}

@@ -1,0 +1,15 @@
+.notFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    padding: 5%;
+
+    h1 {
+        font-size: $xlarge;
+    }
+
+    a {
+        color: $white;
+    }
+}

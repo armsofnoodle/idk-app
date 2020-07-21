@@ -1,0 +1,75 @@
+.filters {
+    border-top: 1px solid $white;
+    padding: 3rem 0 2rem 0;
+    margin: 3rem 2rem 0 2rem;
+    label {
+        font-size: $large;
+        margin-right: 2rem;
+    }
+}
+
+.select {
+    color: $pink !important;
+    font-size: $large !important;
+    border-bottom: 1px solid $white;
+    margin-bottom: 2rem;
+}
+
+.MuiNativeSelect-icon {
+    color: $white !important;
+    transform: scale(2);
+}
+
+.price {
+    margin: 0 0 2rem 0;
+    
+
+    button {
+        font-size: $large;
+        background: none;
+        border: none;
+        color: $white;
+        padding: 0;
+        margin: 0 1.5rem 0 1.5rem;
+    }
+}
+
+.price-active {
+    color: $pink !important;
+}
+
+.distance-input {
+    margin-bottom: 6rem;
+
+    input {
+        background: none;
+        border: none;
+        color: $white;
+        font-size: $large;
+        border-bottom: 1px solid $white;
+        border-radius: 0;
+        width: 20%;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+.label-small {
+    font-size: $medium !important;
+    margin-left: 1rem;
+}
+
+.searchButton {
+    display: flex;
+    justify-content: center;
+    a {
+        font-size: $xlarge;
+        color: $white;
+        border: 3px solid $pink;
+        border-radius: 2.5rem;
+        text-decoration: none;
+        height: 6.5rem;
+        padding: 1rem 2rem;
+    }
+}
+
