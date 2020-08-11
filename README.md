@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## idk, you choose
+
+A PWA to turn your datenight/night out with friends into an adventure. Will select a random food or beverage establishment from Google's Places API using a set of filters the user sets. The user is then shown only a direction and the distance to their destination but not what/where it is. The idea is that you have to navigate your way there on your own using essentially a built in compass. 
+
+This project was built using Create React App and so the following scripts can be run:
 
 ## Available Scripts
 
